@@ -1,39 +1,40 @@
 # 基于小程序的陪诊预约系统
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+小程序项目陪诊预约源码，采用云开发做后端，带有后台，后台用的是CMS系统。主要功能及流程如下：
+一，用户
+1.登录功能，没有的账号会自动创建。
+2.个人信息上传，基本信息。
+3.预约界面：选择预约医院，医院选择后会自动跳转到选医师界面。
+4.医师选择完之后会跳转到预约界面，选择科室，选择时间日期以及填写简单描述，提交预约申请。
+5.费用付支：可以选择两种模式来进行支付，未支付时会提醒支付
+6.预约下单完成之后，医师可以在后台看到预约信息，可以选择接单，用户小程序界面显示预约成功。履约之后在后台进行操作，小程序界面显示履约，最后服务完成。
+7.修改个人信息
+8.对完成的订单进行评价
+9.查看评价
+10.完成之后可以再次预约
+二，后台操作
+1.增加医院
+2.增加医师，可填写相应的资料
+3.管理医师下的订单，包括接单，履约，评价
+4.管理用户信息
+5.管理评价信息
+6.管理预约信息
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+小程序完全个人开发，与网络上的项目无重复性。
+![请添加图片描述](https://img-blog.csdnimg.cn/837e134e42634be5817bed5f0ca04aa2.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/3fdaa99e41cd4ee98dc7e198b8ba2497.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/806aa9f9bc194bad964edf7e33972837.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/225d5dbd5d1742548f8855a64664619e.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/97036f1dba294374b9edf540c095fa59.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/fa0d7b09ba574b32b5fb2a1c26aaa04d.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/290a172adc8444f7ae76f43b7e5bd897.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/bd1c592814ac47d983fdecc6d83309d3.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/b41bcfbc284841f4b159742589d96665.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/60c6ee4f8ba047cdab4583d38663c9a2.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/f0483bd861d441f3bbe1872d4aaf8aba.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/d4709f724e2142be839ce8bb1f7bf175.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/e17364b2b35b459b8f44cfd6f2c0ff41.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/bacf483deb1b437ba1f1824a53bbe3fd.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/388e66076ae945f1b860c9d7246600dc.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/1ca5d568b88a4e72949299d3552093e0.png)
+![请添加图片描述](https://img-blog.csdnimg.cn/9a87d5c629e44714a2db25c126a437db.png)
